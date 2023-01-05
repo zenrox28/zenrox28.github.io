@@ -54,6 +54,23 @@ header {
 
 /* CONTENT */
 
+.tab-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.tab, .tab-separator {
+    margin: 0 5px;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
 .shop {
     padding: 10px;
 }
@@ -81,3 +98,7 @@ header {
 }
 
 /* FOOTER */
+
+footer {
+    margin: 20px 0;
+}
