@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>MY-CELIUM</title>
-        <link rel="stylesheet" href="./css/index.css">
-        <link rel="icon" href="./media/mushroom.gif">
+        <link rel="stylesheet" href="./style.css">
+        <meta charset="UTF-8">
     </head>
+
     <body>
         <header>
-            <div class="title">
-                <img src="./media/MASK.gif" class="title-image">
-                <h1>WELCOME TO MY-CELIUM</h1>
-                <img src="./media/mushroom.gif" class="title-image">
-            </div>
-            <div class="banner"></div>
+            <!-- <h1>smolspoon.png</h1> -->
+             <img src="./resources/smolspoon.gif" class="header_image">
         </header>
-
         <content>
-            <div class="shop">
-
-                <div class="tab-container">
-                    <h2 class="tab" onclick="tab('shirt')">SHIRTS</h2>
-                    <h2 class="tab-separator">|</h2>
-                    <h2 class="tab" onclick="tab('socks')">SOCKS</h2>
-                    <h2 class="tab-separator">|</h2>
-                    <h2 class="tab" onclick="tab('accs')">ACCS</h2>
-                    <h2 class="tab-separator">|</h2>
-                    <h2 class="tab" onclick="showAll()">ALL</h2>
+            <div class="button_container">
+                <a class="link_button" href="#about_me">
+                    <h2>About me</h2>
+                </a>
+                <a class="link_button" href="#gallery">
+                    <h2>Gallery</h2>
+                </a>
+                <a class="link_button" href="#">
+                    <h2>?</h2>
+                </a>
+                <a class="link_button" href="#contact">
+                    <h2>Contact</h2>
+                </a>
+            </div>
+            <div class="about_me_container" id="about_me">
+                <img src="resources/me fr.jpg" class="about_image">
+                <div class="about_me">
+                    <h2>About me</h2>
+                    <p>My name is William, I am a small artist.</p>
                 </div>
-                <div class="row">
-                    <a href="#" class="product accs">
-                        <img src="./media/MASK.gif" class="product-image">
-                        <h2 class="product-name">MASK</h2>
-                        <h3 class="product-price">$19.99</h3>
+            </div>
+            <div class="gallery" id="gallery">
+                <h2>Gallery</h2>
+                <div class="gallery_container" id="gallery_container">
+                    <!-- SCRIPT INSERTS IMAGES INSIDE -->
+                </div>
+            </div>
+            <div class="contact" id="contact">
+                <h2>Contact</h2>
+                <div class="contact_links">
+                    <a href="https://instagram.com/smolspoon.png">
+                        <img src="resources/insta.gif" class="contact_image">
                     </a>
-
-                    <a href="#" class="product shirt">
-                        <img src="./media/SHIRT.gif" class="product-image">
-                        <h2 class="product-name">SHIRT</h2>
-                        <h3 class="product-price">$19.99</h3>
+                    <a href="mailto:leberrewilliam@gmail.com">
+                        <img src="resources/mail.gif" class="contact_image">
                     </a>
-
-                    <a href="#" class="product socks">
-                        <img src="./media/SOCKS.gif" class="product-image">
-                        <h2 class="product-name">SOCKS</h2>
-                        <h3 class="product-price">$9.99</h3>
+                    <a href="https://twitter.com/smolspoon_png">
+                        <img src="resources/twitter.gif" class="contact_image">
                     </a>
                 </div>
             </div>
         </content>
-
-        <footer>&copy;my-celium 2022<br/>
-        DISCLAIMER: I do not plan on using github as a host for a webstore, this is purely for testing.</footer>
+        <footer>
+            <img src="resources/footer.png" class="footer_grass">
+        </footer>
     </body>
 </html>
 
-<script src="./js/index.js"></script>
+<script src="script.js"></script>
