@@ -39,7 +39,7 @@ body {
     height: 100%;
 
     background-color: lightblue;
-    background-image: url('./resources/background.gif');
+    background-image: url('./resources/background.png');
     background-size: contain;
     image-rendering: pixelated;
 }
