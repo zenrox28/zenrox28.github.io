@@ -1,20 +1,20 @@
 {
     "items": [
-        { "url": "./gallery/barrel.png" },
-        { "url": "./gallery/DPRG FLAG.png" },
-        { "url": "./gallery/flower.png" },
-        { "url": "./gallery/frog_pfp.png" },
-        { "url": "./gallery/gnorp.png" },
-        { "url": "./gallery/jgcjg.png" },
-        { "url": "./gallery/MASK.gif" },
-        { "url": "./gallery/midas.png" },
-        { "url": "./gallery/mushroom.gif" },
-        { "url": "./gallery/pineapple.png" },
-        { "url": "./gallery/Poster.png" },
-        { "url": "./gallery/pumpkin2.png" },
-        { "url": "./gallery/random.png" },
-        { "url": "./gallery/render.png" },
-        { "url": "./gallery/ruler of everything.png" },
-        { "url": "./gallery/yo.png" }
+        { "name": "barrel.png" },
+        { "name": "DPRG FLAG.png" },
+        { "name": "flower.png" },
+        { "name": "frog_pfp.png" },
+        { "name": "gnorp.png" },
+        { "name": "jgcjg.png" },
+        { "name": "MASK.gif" },
+        { "name": "midas.png" },
+        { "name": "mushroom.gif" },
+        { "name": "pineapple.png" },
+        { "name": "Poster.png" },
+        { "name": "pumpkin2.png" },
+        { "name": "random.png" },
+        { "name": "render.png" },
+        { "name": "ruler of everything.png" },
+        { "name": "yo.png" }
     ]
 }

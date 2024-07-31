@@ -14,7 +14,7 @@ fetch('./gallery/index.json')
 
         for(let i = 0; i < data.items.length; i++) {
             columns[columnIndex].push(`
-                <img src="${data.items[i].url}" class="gallery_image">
+                <a href="gallery/${data.items[i].name}" target="_blank" class="gallery_image_link"><img src="gallery/${data.items[i].name}" class="gallery_image"></a>
             `)
             if(columnIndex <2) {
                 columnIndex++
