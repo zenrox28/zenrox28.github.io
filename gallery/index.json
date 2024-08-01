@@ -1,5 +1,6 @@
 {
     "items": [
+        { "name": "backpack.gif" },
         { "name": "barrel.png" },
         { "name": "boiler poster.png" },
         { "name": "don't enter.png" },
@@ -12,6 +13,8 @@
         { "name": "green.png" },
         { "name": "green2.png" },
         { "name": "jgcjg.png" },
+        { "name": "mailman_bag.gif" },
+        { "name": "mailman_cap.gif" },
         { "name": "MASK.gif" },
         { "name": "midas.png" },
         { "name": "mouth.png" },

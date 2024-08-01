@@ -156,8 +156,13 @@ content {
 .gallery_image {
     width: 100%;
     border-radius: 15px;
-    background-color: darkblue;
     margin-top: 8px;
+
+    background-color: darkcyan;
+    /* background-image: url('resources/image_background.png');
+    image-rendering: pixelated;
+    background-position: center;
+    background-size: cover; */
 }
 
 .gallery_image_link {
