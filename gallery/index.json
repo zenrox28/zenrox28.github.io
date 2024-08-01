@@ -1,20 +1,30 @@
 {
     "items": [
         { "name": "barrel.png" },
+        { "name": "boiler poster.png" },
+        { "name": "don't enter.png" },
+        { "name": "dont touch it.png" },
         { "name": "DPRG FLAG.png" },
         { "name": "flower.png" },
+        { "name": "flowerhead.jpeg" },
         { "name": "frog_pfp.png" },
         { "name": "gnorp.png" },
+        { "name": "green.png" },
+        { "name": "green2.png" },
         { "name": "jgcjg.png" },
         { "name": "MASK.gif" },
         { "name": "midas.png" },
+        { "name": "mouth.png" },
         { "name": "mushroom.gif" },
         { "name": "pineapple.png" },
         { "name": "Poster.png" },
         { "name": "pumpkin2.png" },
+        { "name": "PWU DPRG.png" },
         { "name": "random.png" },
         { "name": "render.png" },
         { "name": "ruler of everything.png" },
+        { "name": "Take Breaks Poster.png" },
+        { "name": "teeth.png" },
         { "name": "yo.png" }
     ]
 }
