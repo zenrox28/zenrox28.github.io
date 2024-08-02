@@ -1,5 +1,7 @@
 {
     "items": [
+        { "name": "1bit2.png" },
+        { "name": "8-bit_ab_shop.png" },
         { "name": "backpack.gif" },
         { "name": "barrel.png" },
         { "name": "boiler poster.png" },
@@ -8,6 +10,7 @@
         { "name": "DPRG FLAG.png" },
         { "name": "flower.png" },
         { "name": "flowerhead.jpeg" },
+        { "name": "frog card large.png" },
         { "name": "frog_pfp.png" },
         { "name": "gnorp.png" },
         { "name": "green.png" },
@@ -28,6 +31,8 @@
         { "name": "ruler of everything.png" },
         { "name": "Take Breaks Poster.png" },
         { "name": "teeth.png" },
+        { "name": "true.png" },
+        { "name": "unknown.png" },
         { "name": "yo.png" }
     ]
 }

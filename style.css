@@ -19,6 +19,11 @@ TODO: MAKE WEBSITE READABLE FOR MOBILE.
     }
 }
 
+::-moz-selection, ::selection {
+    color: white;
+    background-color: black;
+}
+
 html {
     scroll-behavior: smooth;
 
@@ -48,7 +53,7 @@ body {
     background-color: lightblue;
     background-image: url('./resources/background.gif');
     background-size: contain;
-    background-position: center;
+    background-position: top;
     image-rendering: pixelated;
 }
 
@@ -87,6 +92,10 @@ content {
     flex-direction: column;
 }
 
+.subtitle {
+    text-align: center;
+}
+
 .button_container {
     display: flex;
     justify-content: center;
@@ -115,8 +124,9 @@ content {
     background-image: url('./resources/button_hover.png');
 }
 
+/*
 .link_button:active {}
-
+*/
 
 .about_me_container {
     margin-top: 250px;
@@ -129,14 +139,16 @@ content {
 
 }
 
+
 .about_me {
+    letter-spacing: 1px;
 }
 
-.about_image {
-    width: 25%;
-    margin-right: 25px;
 
-    background-color: darkblue;
+.about_image {
+    width: 50%;
+    background-color: none;
+    margin-right: 25px;
 }
 
 .gallery {
@@ -165,8 +177,10 @@ content {
     background-size: cover; */
 }
 
+/*
 .gallery_image_link {
 }
+*/
 
 .column {
     flex: 30%;
@@ -186,7 +200,9 @@ content {
     align-items: center;
 }
 
+/*
 .contact_links {}
+*/
 
 .contact_image {
     image-rendering: pixelated;
@@ -235,10 +251,14 @@ footer {
     }
 
     .about_image {
-        width: 100%;
+        display: none;
     }
 
     #gallery, #about_me, #contact {
         font-size: 32px;
+    }
+
+    .contact_image {
+        width: 150px;
     }
 }

@@ -1,10 +1,11 @@
 let gallery = document.getElementById('gallery_container')
 
 let columns = [
-    (left = []),
-    (center = []),
-    (right = [])
+    left = [],
+    center = [],
+    right = []
 ]
+
 let columnIndex = 0
 
 fetch('./gallery/index.json')
@@ -25,15 +26,9 @@ fetch('./gallery/index.json')
 
         
         columns = [
-            (left = [`
-                <div class="column">${columns[0].join("")}</div>
-            `]),
-            (center = [`
-                <div class="column">${columns[1].join("")}</div>
-            `]),
-            (right = [`
-                <div class="column">${columns[2].join("")}</div>
-            `]),
+            left = [`<div class="column">${columns[0].join("")}</div>`],
+            center = [`<div class="column">${columns[1].join("")}</div>`],
+            right = [`<div class="column">${columns[2].join("")}</div>`],
         ]
 
         gallery.innerHTML = columns.join("")
