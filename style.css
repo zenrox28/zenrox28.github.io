@@ -1,6 +1,5 @@
 /* 
-TODO: MAKE WEBSITE READABLE FOR MOBILE.
- - changed background to make white text readable.
+notes:
 */
 
 @font-face {
@@ -149,6 +148,7 @@ content {
     width: 50%;
     background-color: none;
     margin-right: 25px;
+    border-radius: 15px;
 }
 
 .gallery {
