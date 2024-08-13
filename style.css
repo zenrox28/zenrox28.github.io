@@ -1,5 +1,9 @@
 /* 
 notes:
+- removed useless files.
+- changed background to make text more readable.
+- changed buttons design.
+- made buttons bigger on mobile.
 */
 
 @font-face {
@@ -49,10 +53,11 @@ body {
     height: 100%;
     max-height: 100%;
 
-    background-color: lightblue;
-    background-image: url('./resources/background.gif');
-    background-size: contain;
-    background-position: top;
+    background-color: #4dd0e1;
+    background-image: url('resources/cloud.png'), url('resources/trees.png'), url('resources/montains.png');
+    background-position: top, bottom, bottom;
+    background-size: 25%, 25%, 25%;
+    background-repeat: repeat-x;
     image-rendering: pixelated;
 }
 
@@ -102,25 +107,23 @@ content {
 }
 
 .link_button, .link_button:visited {
-    padding: 7px 5px;
-    padding-top: 14px;
+    padding: 15px 20px;
+    padding-top: 25px;
     margin: 5px;
     
-    width: 164px;
-    height: 36px; 
-   
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-image: url('./resources/button.png');
-    background-size: cover;
-    background-position: center;
+    background-image: url('resources/sign_left.png'), url('resources/sign_right.png'), url('resources/sign_center.png');
+    background-size: auto 100%;
+    background-position: left, right, center;
+    background-repeat: no-repeat, no-repeat, repeat;
     image-rendering: pixelated;
 }
 
 .link_button:hover {
-    background-image: url('./resources/button_hover.png');
+    background-image: url('resources/sign_left.png'), url('resources/sign_right.png'), url('resources/sign_center_hover.png');
 }
 
 /*
@@ -221,7 +224,7 @@ footer {
 
 @media only screen and (max-width: 1000px) {
     body {
-        background-size: 200%;
+        background-size: 50%, 50%, 50%, cover;
     }
 
     .header_image {
@@ -231,6 +234,12 @@ footer {
 
     .button_container {
         display: grid;
+    }
+
+    .link_button {
+        padding: 40px 50px;
+        padding-top: 60px;
+        font-size: 30px;
     }
 
     .column {
