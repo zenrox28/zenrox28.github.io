@@ -270,4 +270,8 @@ footer {
     .contact_image {
         width: 150px;
     }
+
+    .contact {
+        width: 75%;
+    }
 }
